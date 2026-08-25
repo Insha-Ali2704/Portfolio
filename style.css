@@ -1,0 +1,379 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+.navbar {
+    background-color:#f8f7f2;
+    padding:30px;
+    border:1px solid rgb(220, 213, 213);;
+    border-radius:5px;
+    margin:0px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    z-index:1000;
+}
+h1{
+    font-size: 75px;
+    font-weight: 500;
+    font-family: 'Fraunces';
+    color: rgb(35, 41, 55);
+    padding-right: 300px;
+    line-height: 1;
+    padding-bottom: 1px;
+    margin-bottom:10px;
+}
+h1 em{
+    font-size: 75px;
+    font-weight:500;
+    font-family: 'Fraunces';
+    color: rgb(16, 97, 97);
+    padding-right: 300px;
+    line-height: 1;
+    padding-bottom: 1px;
+    margin-bottom:10px;
+}
+nav span{
+    padding: 10px;
+    font-size: 14px;
+    font-weight: 200;
+    font-family: 'IBM Plex Mono', monospace;
+    color: rgb(239, 137, 85);
+    text-align:right;
+}
+a{
+    font-size: 14px;
+    font-weight: 200;
+    font-family: monospace;
+    color: rgb(91, 90, 89);
+    text-align:right;
+    text-decoration: none;
+}
+
+.hero{
+    margin: 150px 300px 0px 100px;
+}
+body{
+    background:
+        linear-gradient(#f0e3e3 2px, transparent 1px),
+        linear-gradient(90deg, #f0e3e3 2px, transparent 1px),
+        #f8f7f2;
+    background-size: 32px 32px;
+
+}
+html {
+    scroll-behavior: smooth;
+}
+.intro{
+    font-size:22px;
+    font-family:'Trebuchet MS';
+    color:rgb(92, 91, 91);
+    font-weight:lighter;
+    margin:20px 200px 0px 10px;
+    padding-top:10px;
+    padding-left:0px;
+}
+/*
+h3{
+    font-size: 28px;
+    color:rgb(35, 41, 55);
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight: lighter;
+    padding: 0px 1px 10px 1px;
+    margin:0px 0px 10px 0px; 
+    line-height: 0.5;
+    
+}
+div p{
+    font-size: 20px;
+    font-weight: 100;
+    font-family:'Times New Roman';
+    color: rgb(90, 87, 85);
+    padding-left:900px;
+    line-height: 1.5;
+    display: inline-block;
+}*/
+.project-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.project-header h3{
+    margin: 0;
+    font-size: 28px;
+    color: rgb(35,41,55);
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight: lighter;
+}
+
+.date{
+    margin: 0;
+    font-size: 18px;
+    font-family: 'Times New Roman';
+    color: rgb(90,87,85);
+}
+
+.tech{
+    font-size: 18px;
+    color: rgb(90,87,85);
+}
+#about,#projects,#skills,#involvement,#codingplatforms,#contact{
+    font-size: 37px;
+    color:rgb(35, 41, 55);
+    font-family: 'Fraunces';
+    padding: 20px 1px 20px 1px;
+    margin:30px 1px 30px 1px;
+    font-weight: 400;
+}
+small{
+    color:rgb(239, 137, 85);
+    font-weight:20;
+    font-size:20px;
+    font-family: 'IBM Plex Mono', monospace;
+}
+.content{
+    font-size: 18px;
+    font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(52, 51, 51);
+    font-weight: lighter;
+    margin: 0px 200px 0px 10px;
+    padding-top: 0px;
+    padding-left: 0px;
+    line-height: 1.5;
+}
+.projects{
+    font-size: 18px;
+    color: rgb(52, 51, 51);
+    font-weight: lighter;
+    margin: 0px 200px 0px 10px;
+    padding-top: 0px;
+    padding-left: 0px;
+    line-height: 1.5;
+}
+.skills{
+    font-size: 18px;
+    font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(52, 51, 51);
+    font-weight: lighter;
+    margin: 0px 200px 0px 10px;
+    padding-top: 0px;
+    padding-left: 0px;
+    line-height: 1.5;
+}
+.involvement{
+    font-size: 18px;
+    font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(52, 51, 51);
+    font-weight: lighter;
+    margin: 0px 200px 0px 10px;
+    padding-top: 0px;
+    padding-left: 0px;
+    line-height: 1.5;
+}
+.coding-platforms{
+    font-size: 18px;
+    font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(52, 51, 51);
+    font-weight: lighter;
+    margin: 0px 200px 0px 10px;
+    padding-top: 0px;
+    padding-left: 0px;
+    line-height: 1.5;
+}
+.contact{
+    font-size: 18px;
+    font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(52, 51, 51);
+    font-weight: lighter;
+    margin: 0px 200px 0px 10px;
+    padding-top: 0px;
+    padding-left: 0px;
+    line-height: 1.5;
+}
+#footer{
+    font-family:  monospace;
+    font-size:20px;
+    font-weight: bold;
+    text-align: center;
+    display: block;
+    text-decoration:wavy;
+    color: black;
+    padding: 1px 0px 1px 0px;
+    margin:40px 50px 40px 100px;
+    font-style:normal;
+}
+
+/*new*/
+/* Prevent horizontal scrolling */
+* {
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+
+/* =========================
+   TABLET AND MOBILE
+   ========================= */
+
+@media (max-width: 768px) {
+
+    /* NAVBAR */
+    .navbar {
+        padding: 15px;
+        width: 100%;
+        overflow-x: auto;
+        white-space: nowrap;
+    }
+
+    .navbar .logo {
+        display: none;
+    }
+
+    nav span {
+        font-size: 11px;
+        padding: 4px;
+    }
+
+    nav a {
+        font-size: 11px;
+        margin-right: 8px;
+    }
+
+
+    /* MAIN HERO */
+    .hero {
+        margin: 100px 20px 0px 20px;
+    }
+
+
+    /* MAIN HEADING */
+    h1,
+    h1 em {
+        font-size: 48px;
+        padding-right: 0;
+        line-height: 1.1;
+    }
+
+    h1 code {
+        font-size: 22px !important;
+    }
+
+    h1 p {
+        font-size: 0.85rem !important;
+    }
+
+
+    /* INTRO */
+    .intro {
+        font-size: 18px;
+        margin: 20px 0;
+        line-height: 1.5;
+    }
+
+
+    /* SECTION HEADINGS */
+    #about,
+    #projects,
+    #skills,
+    #involvement,
+    #codingplatforms,
+    #contact {
+        font-size: 32px;
+        margin: 30px 0 20px 0;
+        padding: 15px 0;
+    }
+
+    small {
+        font-size: 16px;
+    }
+
+
+    /* ALL MAIN CONTENT */
+    .content,
+    .projects,
+    .skills,
+    .involvement,
+    .coding-platforms,
+    .contact {
+        margin: 0;
+        font-size: 16px;
+    }
+
+
+    /* PROJECT HEADER */
+    .project-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 5px;
+    }
+
+    .project-header h3 {
+        font-size: 23px;
+    }
+
+    .date {
+        font-size: 15px;
+    }
+
+    .tech {
+        font-size: 16px;
+    }
+
+
+    /* PROJECT LIST */
+    .list {
+        padding-left: 0;
+        line-height: 1.7;
+    }
+
+
+    /* FOOTER */
+    #footer {
+        font-size: 15px;
+        margin: 40px 0 20px 0;
+    }
+}
+
+
+/* =========================
+   SMALL PHONES
+   ========================= */
+
+@media (max-width: 480px) {
+
+    .hero {
+        margin: 85px 15px 0px 15px;
+    }
+
+    h1,
+    h1 em {
+        font-size: 38px;
+    }
+
+    h1 code {
+        font-size: 18px !important;
+    }
+
+    .intro {
+        font-size: 16px;
+    }
+
+    #about,
+    #projects,
+    #skills,
+    #involvement,
+    #codingplatforms,
+    #contact {
+        font-size: 28px;
+    }
+
+    .project-header h3 {
+        font-size: 20px;
+    }
+}
