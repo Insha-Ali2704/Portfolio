@@ -108,6 +108,19 @@ html {
     font-size: 18px;
     color: rgb(90, 87, 85);
 }
+.involvement p {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 0 10px 0;
+}
+
+.soc {
+    font-size: 20px;
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight: 400;
+    color: rgb(35, 41, 55);
+}
 
 #about, #projects, #skills, #involvement, #codingplatforms, #contact {
     font-size: 37px;
